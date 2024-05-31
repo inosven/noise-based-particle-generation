@@ -6,6 +6,11 @@ This instruction describes a set of MATLAB codes that includes the following thr
 - Perlin noise
 - Worley noise
 
+# Cite our work
+
+If you use our MATLAB codes, please cite the following article that contains details of the methodology:
+
+
 #### Instructions for the MATLAB codes
 
 The folder `Noise function` holds the codes for the 2D and 3D functions of three noise algorithms, such as `Perlinnoise2D.m` and `Perlinnoise3D.m`. The folder `The base geometry` holds the base geometries which are used in the algorithms, such as `The base geometry\Sphere\Sphere_L6.stl`. Finally, copy all the MATLAB files (`*.m`) and STereoLithography files (`*.stl`) to a new working directory.
