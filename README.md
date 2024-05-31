@@ -18,19 +18,19 @@ Run `Plot_2Dnoise.m` to get four noise maps with pixels of 400 × 400, grid numb
 
 Run `Plot_2Dfractalnoise.m` to obtain a fractal noise map that is composed of a noise with 5 layers of frequency doubling and amplitude halving, superimposed with a low-frequency noise (set `q = 0.5`,`N = 5`).
 
-<img title="Four noise maps" src="../Example_figures/Example_four%20noise%20maps.png" alt="Four noise maps" data-align="center" width="480">
+<img title="Four noise maps" src="Example_figures/Example_four%20noise%20maps.png" alt="Four noise maps" data-align="center" width="480">
 
 ### 2D particle shapes
 
 Run `Generation_2Dparticleshape.m` to generate random 2D particle shapes based on 2D Value noise.
 
-<img title="2D particle shape" src="../Example_figures/Example_2Dparticle%20shape.png" alt="2D particle shape" data-align="center" width="480">
+<img title="2D particle shape" src="Example_figures/Example_2Dparticle%20shape.png" alt="2D particle shape" data-align="center" width="480">
 
 ### 3D particle shapes
 
 Run `Generation_3Dparticleshape.m` to generate random 3D particle shapes from a sphere (set `fv=stlread('Sphere_L6.stl')`) based on 3D Value noise.
 
-<img title="3D particle shape" src="../Example_figures/Example_3Dparticle%20shape.png" alt="3D particle shape" data-align="center" width="480">
+<img title="3D particle shape" src="Example_figures/Example_3Dparticle%20shape.png" alt="3D particle shape" data-align="center" width="480">
 
 ### Realistic particle generation through noise superposition
 
@@ -38,10 +38,10 @@ Run `G3Dparticle_noisesuperposition.m` to superimpose 5 layers of high-frequency
 
 **Tips:** The base geometry used to generate 3D particles can be replaced with other simple geometries, such as an ellipsoid (set `fv=stlread('Ellipsoid.stl')`). Reference: `The base geometry\Simple geometry\Ellipsoid.stl`.
 
-<img title="Particle generation through noise superposition" src="../Example_figures/Example_3Dparticle%20noisesuperposition.png" alt="Particle generation through noise superposition" data-align="center" width="480">
+<img title="Particle generation through noise superposition" src="Example_figures/Example_3Dparticle%20noisesuperposition.png" alt="Particle generation through noise superposition" data-align="center" width="480">
 
 ### Scanned particles as the base geometries
 
 Run `G3Dparticle_scannedparticle.m` to normalize the size of a scanned particle and generate new realistic particles by superimposing noise on top of it. Reference: `The base geometry\Scanned particel\Ballast.stl`.
 
-<img title="Scanned particles as the base geometries" src="../Example_figures/Example_3Dparticle%20scanned.png" alt="Scanned particles as the base geometries" data-align="center" width="480">
+<img title="Scanned particles as the base geometries" src="Example_figures/Example_3Dparticle%20scanned.png" alt="Scanned particles as the base geometries" data-align="center" width="480">
