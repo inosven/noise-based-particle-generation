@@ -19,7 +19,7 @@ j=0;
     end
  end
 % Normalize the noise matrix s so that its value range is between [0,1].
-s=(s-min(min(s)))./(max(max(s))-min(min(s)));
+s=(s - min(s(:))) / (max(s(:)) - min(s(:)));
 end
 % Apply a smoothing function to make the interpolation smoother.
 function u=lerp(a,b,t)

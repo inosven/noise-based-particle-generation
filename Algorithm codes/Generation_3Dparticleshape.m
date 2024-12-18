@@ -11,7 +11,7 @@ fv=stlread('Sphere_L6.stl');% Using a sphere as the base geometry.
 % f: the cubic noise space is partitioned into f × f × f cells, with f cells along each dimension respectively.
 % eta: the degree of influence exerted by the noise algorithms.
 
-m=60; f=3; n=1; eta=1;
+m=60; f=2; n=1; eta=1;
 [x,y,z]=generation_3D(fv.vertices,m,n,f,eta);
 vertices = [x y z];% Vertex coordinates of the triangular mesh vertices of the generated particles.
 
@@ -51,9 +51,9 @@ s = zeros([m,m,m]);
 % % Value noise-based algorithm for 3D particle generation.
 % % Other noise algorithms can be used for 3D particle generation.
 % % For example, here you can replace Valuenoise3D(m,f) with Perlinnoise3D(m,f).
-% s=Worleynoise3D(m,n,f);
+s=Worleynoise3D(m,n,f);
 % s=Perlinnoise3D(m,f);
-s=Valuenoise3D(m,f);
+% s=Valuenoise3D(m,f);
 
 xoff = vertices(:,1);
 yoff = vertices(:,2);

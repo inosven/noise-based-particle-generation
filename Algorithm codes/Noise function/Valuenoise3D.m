@@ -24,7 +24,7 @@ for x=f/m:f/m:f
     end
 end
 % Normalize the noise matrix s so that its value range is between [0,1].
-s=(s-min(min(min(s))))./(max(max(max(s)))-min(min(min(s))));
+s=(s - min(s(:))) / (max(s(:)) - min(s(:)));
 end
 
 function u=lerp(t,a,b)
