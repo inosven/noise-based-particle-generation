@@ -9,6 +9,7 @@ This instruction describes a set of MATLAB codes that includes the following thr
 ## Citing our work
 
 If you use our MATLAB codes, please cite the following article that contains details of the methodology:
+
 [A noise-based framework for randomly generating soil particle with realistic geometry](https://onlinelibrary.wiley.com/doi/full/10.1111/mice.13424)
 ## Instructions for the MATLAB codes
 
